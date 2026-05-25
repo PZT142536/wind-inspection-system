@@ -1,0 +1,28 @@
+# 开发环境配置
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/wind_inspection
+    username: wind
+    password: wind123456
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password: redis123456
+  ldap:
+    urls: ldap://127.0.0.1:389
+    base: dc=company,dc=com
+    username: cn=admin,dc=company,dc=com
+    password: admin
+
+# 日志级别
+logging:
+  level:
+    root: INFO
+    com.shanghaiwind: DEBUG

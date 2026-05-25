@@ -1,0 +1,79 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+*.log
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# Node
+node_modules/
+dist/
+.nuxt/
+.output/
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker/data/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Package
+*.tar.gz
+*.zip
+
+# Gradle
+.gradle/
+build/
+
+# Android
+*.apk
+*.aab
+local.properties
+
+# HarmonyOS
+node_modules/
+oh_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+*.egg
+
+# AI Model weights (large files)
+services/ai/weights/*.onnx
+services/ai/weights/*.pt
+services/ai/weights/*.pth
+
+# Temp
+temp/
+tmp/
+*.tmp
+.swp
+.swo
